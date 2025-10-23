@@ -5,6 +5,8 @@ paginate: true
 class: invert
 math: katex
 
+# 上面的theme和class都可以自己更改
+
 # ===============================================
 # ===         MY MARP CSS TOOLKIT             ===
 # ===============================================
