@@ -1,0 +1,152 @@
+{
+  "Two Columns Layout": {
+    "prefix": "marp-2col",
+    "scope": "markdown",
+    "body": [
+      "<div class=\"two-columns\">",
+      "<div class=\"col\">",
+      "",
+      "$1",
+      "",
+      "</div>",
+      "<div class=\"col\">",
+      "",
+      "$2",
+      "",
+      "</div>",
+      "</div>"
+    ],
+    "description": "插入两栏布局"
+  },
+  "Three Columns Layout": {
+    "prefix": "marp-3col",
+    "scope": "markdown",
+    "body": [
+      "<div class=\"three-columns\">",
+      "<div class=\"col\">",
+      "",
+      "$1",
+      "",
+      "</div>",
+      "<div class=\"col\">",
+      "",
+      "$2",
+      "",
+      "</div>",
+      "<div class=\"col\">",
+      "",
+      "$3",
+      "",
+      "</div>",
+      "</div>"
+    ],
+    "description": "插入三栏布局"
+  },
+  "Key Takeaway Box": {
+    "prefix": "marp-key",
+    "scope": "markdown",
+    "body": [
+      "<div class=\"key-takeaway-dark\">",
+      "",
+      "$1",
+      "",
+      "</div>"
+    ],
+    "description": "插入重点结论框（深色）"
+  },
+  "Quote Block": {
+    "prefix": "marp-quote",
+    "scope": "markdown",
+    "body": [
+      "<div class=\"quote-block\">",
+      "",
+      "\"$1\"",
+      "",
+      "<div class=\"footer\">",
+      "— $2",
+      "</div>",
+      "",
+      "</div>"
+    ],
+    "description": "插入引用块"
+  },
+  "Image Grid 2x2": {
+    "prefix": "marp-img4",
+    "scope": "markdown",
+    "body": [
+      "<div class=\"image-grid\">",
+      "  <img src=\"$1\" alt=\"Image 1\">",
+      "  <img src=\"$1\" alt=\"Image 2\">",
+      "  <img src=\"$1\" alt=\"Image 3\">",
+      "  <img src=\"$1\" alt=\"Image 4\">",
+      "</div>"
+    ],
+    "description": "插入 2x2 图片网格"
+  },
+  "Small Text": {
+    "prefix": "marp-sm",
+    "scope": "markdown",
+    "body": [
+      "<div class=\"text-sm\">",
+      "",
+      "$1",
+      "",
+      "</div>"
+    ],
+    "description": "插入较小文字容器"
+  },
+  "Extra Small Text": {
+    "prefix": "marp-xs",
+    "scope": "markdown",
+    "body": [
+      "<div class=\"text-xs\">",
+      "",
+      "$1",
+      "",
+      "</div>"
+    ],
+    "description": "插入更小文字容器"
+  },
+  "Small Code Block": {
+    "prefix": "marp-code-sm",
+    "scope": "markdown",
+    "body": [
+      "<div class=\"code-sm\">",
+      "",
+      "```${1:language}",
+      "$2",
+      "```",
+      "",
+      "</div>"
+    ],
+    "description": "插入小字号代码块"
+  },
+  "Vertical Center Slide": {
+    "prefix": "marp-vcenter",
+    "scope": "markdown",
+    "body": [
+      "<!-- _class: invert v-center -->"
+    ],
+    "description": "创建垂直居中的幻灯片"
+  },
+  "Image with Custom Size": {
+    "prefix": "marp-img",
+    "scope": "markdown",
+    "body": [
+      "<img src=\"$1\" alt=\"$2\" width=\"${3:600px}\">"
+    ],
+    "description": "插入可自定义尺寸的图片"
+  },
+  "New Slide": {
+    "prefix": "marp-slide",
+    "scope": "markdown",
+    "body": [
+      "---",
+      "",
+      "## $1",
+      "",
+      "$2"
+    ],
+    "description": "创建新幻灯片"
+  }
+}
