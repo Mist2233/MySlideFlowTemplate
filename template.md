@@ -1,8 +1,8 @@
 ---
 marp: true
-theme: gaia # 这里的主题可以更改
+theme: gaia
 paginate: true
-class: invert # 这里可以设置深色/浅色
+class: invert
 math: katex
 
 # ===============================================
